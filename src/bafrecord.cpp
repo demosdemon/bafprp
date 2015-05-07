@@ -680,7 +680,8 @@ namespace bafprp
 			{
 			case 0:
 				// All done here
-				return;
+        count = 21;
+				break;
       case 10:
         addModuleField( 10, "largedigits" );
         break;
