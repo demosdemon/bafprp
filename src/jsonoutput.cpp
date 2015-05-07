@@ -87,12 +87,8 @@ namespace bafprp
     }
 
     const std::string type = field->getType();
-    if (type == "amadns") {
-      name.value = field->getLong();
-    } else if (type == "duration") {
+    if (type == "duration") {
       name.value = field->getFloat();
-    } else if (type == "number") {
-      name.value = field->getLong();
     } else if (type == "shortduration") {
       name.value = field->getFloat();
     } else {
