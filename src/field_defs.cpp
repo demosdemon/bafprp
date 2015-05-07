@@ -988,6 +988,9 @@ namespace bafprp
 		// Table 808
 		makeField("callcorrelator", "number", "15", "Call Correlator");
 
+    // Table 900
+    makeField("unconnectedroutecause", "number", "11", "Unconnected Trunk Route Cause");
+
 		// Table 901
 		makeField( "switchid", "number", "20", "Switch Identifier" );
 		// Table 902
@@ -1051,6 +1054,9 @@ namespace bafprp
 		FieldMaker::setFieldProperty( "cptypeofname", "07:Original Called Number" );
 		FieldMaker::setFieldProperty( "cptypeofname", "08:Provisioned Billing Number" );
 		FieldMaker::setFieldProperty( "cptypeofname", "09:Name from CNAM query" );
+
+    // Table 3000
+    makeField( "useragent", "string", "136", "User Agent String" );
 
 	}
 } // namespace

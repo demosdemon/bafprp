@@ -681,6 +681,9 @@ namespace bafprp
 			case 0:
 				// All done here
 				return;
+      case 10:
+        addModuleField( 10, "largedigits" );
+        break;
 			case 21:
 				addModuleField( 21, "icincid" );
 				addModuleField( 21, "carrierconnectdate" );
@@ -843,6 +846,16 @@ namespace bafprp
 			case 800:
 				addModuleField( 800, "callcorrelator");
 				break;
+      case 801:
+        addModuleField( 801, "trunkgroupnumber");
+        addModuleField( 801, "unconnectedroutecause");
+        break;
+      case 802:
+        addModuleField( 802, "useragent");
+        break;
+      case 803:
+        addModuleField( 803, "useragent");
+        break;
 			case 901:
 				// Coppercom specific module
 				addModuleField( 901, "recordid" );

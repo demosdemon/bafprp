@@ -117,6 +117,7 @@
     <ClCompile Include="..\src\number_switch_dt.cpp" />
     <ClCompile Include="..\src\phonenumber_dt.cpp" />
     <ClCompile Include="..\src\shortduration_dt.cpp" />
+    <ClCompile Include="..\src\string_dt.cpp" />
     <ClCompile Include="..\src\switch_dt.cpp" />
     <ClCompile Include="..\src\time_dt.cpp" />
   </ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="..\include\number_switch_dt.h" />
     <ClInclude Include="..\include\phonenumber_dt.h" />
     <ClInclude Include="..\include\shortduration_dt.h" />
+    <ClInclude Include="..\include\string_dt.h" />
     <ClInclude Include="..\include\switch_dt.h" />
     <ClInclude Include="..\include\time_dt.h" />
   </ItemGroup>
