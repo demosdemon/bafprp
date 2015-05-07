@@ -122,6 +122,12 @@
     <ClCompile Include="..\src\string_dt.cpp">
       <Filter>Source Files\Fields</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\jsonoutput.cpp">
+      <Filter>Source Files\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jsoncpp.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\bafdefines.h">
@@ -204,6 +210,15 @@
     </ClInclude>
     <ClInclude Include="..\include\string_dt.h">
       <Filter>Header Files\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsonoutput.h">
+      <Filter>Header Files\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json\json-forwards.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json\json.h">
+      <Filter>Header Files\Tools</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

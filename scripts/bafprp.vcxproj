@@ -98,6 +98,8 @@
     <ClCompile Include="..\src\csvoutput.cpp" />
     <ClCompile Include="..\src\emailoutput.cpp" />
     <ClCompile Include="..\src\fileoutput.cpp" />
+    <ClCompile Include="..\src\jsoncpp.cpp" />
+    <ClCompile Include="..\src\jsonoutput.cpp" />
     <ClCompile Include="..\src\mssqloutput.cpp" />
     <ClCompile Include="..\src\mysqloutput.cpp" />
     <ClCompile Include="..\src\nooutput.cpp" />
@@ -128,6 +130,9 @@
     <ClInclude Include="..\include\csvoutput.h" />
     <ClInclude Include="..\include\emailoutput.h" />
     <ClInclude Include="..\include\fileoutput.h" />
+    <ClInclude Include="..\include\jsonoutput.h" />
+    <ClInclude Include="..\include\json\json-forwards.h" />
+    <ClInclude Include="..\include\json\json.h" />
     <ClInclude Include="..\include\mssqloutput.h" />
     <ClInclude Include="..\include\mysqloutput.h" />
     <ClInclude Include="..\include\nooutput.h" />
