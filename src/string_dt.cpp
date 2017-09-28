@@ -69,14 +69,8 @@ namespace bafprp
 
     _size = (((end - data)-1) * 2);*/
 
-    _return = std::string((const char*)(data+4), std::min(length, 64));
+    _return = std::string((const char*)(data+4), length - 4);
     _converted = true;
-
-    if( _return.length() != length ) 
-    {
-      _lastError = "Data read is not the correct size";
-      _converted = false;
-    }
 
     LOG_TRACE( "/NumberField::convert" );
     return _converted;
